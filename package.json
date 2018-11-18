@@ -1,0 +1,46 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "cangdu blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailicangdu/node-blog.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "mongodb",
+    "graphql"
+  ],
+  "author": "cangdu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bailicangdu/node-blog/issues"
+  },
+  "homepage": "https://github.com/bailicangdu/node-blog#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "config-lite": "^2.1.0",
+    "consola": "^2.2.6",
+    "graphql": "^14.0.2",
+    "graphql-server-koa": "^1.4.0",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.6"
+  }
+}
